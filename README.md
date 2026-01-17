@@ -1,4 +1,4 @@
-# Concept Board Creator 🖼️
+# Concept Board Creator ![Concept Board Creator Icon](Resources/ConceptBoardCreator_icon32.png)
 
 **Concept Board Creator** is a powerful Unreal Engine Editor Utility Widget designed to instantly turn reference images into organized, 3D concept boards within your level. Whether you are building a mood board for a virtual production shoot or a reference wall for environment art, this tool automates the tedious process of material creation and aspect-ratio scaling.
 
