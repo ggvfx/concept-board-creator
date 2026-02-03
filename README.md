@@ -1,6 +1,6 @@
 # Concept Board Creator ![Concept Board Creator Icon](Resources/ConceptBoardCreator_icon32.png)
 
-**Concept Board Creator** is a powerful Unreal Engine Editor Utility Widget designed to instantly turn reference images into organized, 3D concept boards within your level. Whether you are building a mood board for a virtual production shoot or a reference wall for environment art, this tool automates the tedious process of material creation and aspect-ratio scaling.
+**Concept Board Creator** is a workflow-optimization Unreal Engine tool designed to bridge the gap between creative reference and 3D environment staging. Built for Virtual Art Departments (VAD) and Virtual Production crews, it automates the asset ingestion process—instantly transforming 2D reference into organized, metadata-aware 3D mood boards . By eliminating the manual overhead of material instancing and aspect-ratio scaling, it allows Art Directors and Leads to focus on creative spatial relationships rather than technical scene setup.
 
 ![Concept Board Creator UI](Resources/ConceptBoard_UI.png) 
 *Load your textures, set your grid, and generate organized reference boards in seconds.*
@@ -8,7 +8,8 @@
 ---
 
 ## 🚀 The Concept
-Creating reference boards in 3D space usually involves manually creating planes, making material instances, and painstakingly lining them up. **Concept Board Creator** handles the heavy lifting by:
+During rapid pre-visualization and VAD sprints, the transition from 2D reference to 3D space is a significant bottleneck. Manually creating planes, generating material instances, and correcting for aspect-ratio stretching are low-value, repetitive tasks that stifle creative momentum. Concept Board Creator solves this by providing a standardized, "one-click" pipeline for reference ingestion, ensuring that technical consistency is maintained without manual intervention. 
+**Concept Board Creator** handles the heavy lifting by:
 
 1. **Automating Materials:** It checks if a texture already has a dedicated material instance. If not, it generates one from a high-quality unlit master material (with exposed desaturation and emissive parameters) and saves it alongside your texture.
 2. **Smart Layouts:** It calculates the correct aspect ratio for every image and organizes them into a clean grid based on your "Max Images Per Row" settings.
@@ -18,11 +19,14 @@ Creating reference boards in 3D space usually involves manually creating planes,
 
 ## ✨ Key Features
 
-* **One-Click Material Generation:** Automatically creates and assigns Material Instances with unlit, desaturatable, and emissive properties.
-* **Aspect Ratio Awareness:** Planes are automatically scaled to match the dimensions of the source texture, preventing any image stretching.
-* **Integrated Backing:** Generates a transparent grey backing panel (with its own customizable master material) that can be sized to fit your custom layout.
-* **Customizable Spacing:** Fine-tune the X and Z padding between images directly from the UI.
-* **World/Camera Alignment:** Toggle between spawning the board at the world origin or snapping it to your current perspective.
+* **One-Click Material Generation:** Automatically generates and assigns high-quality Material Instances with unlit, desaturatable, and emissive properties.
+* **Asset Relationship Mapping:** Performs an audit for existing Material Instances before generation, preventing asset redundancy and maintaining pipeline hygiene.
+* **Parameter Exposure:** Dynamically creates instances with exposed look-development controls, allowing for rapid global or local adjustments to emissive and desaturation values across the board. 
+* **Aspect Ratio Awareness:** Automatically calculates and applies non-destructive scaling based on source texture metadata to eliminate image distortion.
+* **Integrated Backing:** Generates a backing panel to provide visual organization and spatial context for custom layouts.
+* **Customizable Spacing:** Provides granular UI controls for X and Z padding to define optimal viewing density.
+* **World/Camera Alignment:** Toggle between spawning assets at the world origin or snapping to the current viewport perspective for instant visualization.
+* **Encapsulated Actor Hierarchy:** Parents all components to a single organizational actor, providing a unified pivot for streamlined spatial manipulation and a clean Outliner structure.
 
 ---
 
