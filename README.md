@@ -1,6 +1,6 @@
 # Concept Board Creator ![Concept Board Creator Icon](Resources/ConceptBoardCreator_icon32.png)
 
-**Concept Board Creator** is a workflow-optimization Unreal Engine tool designed to bridge the gap between creative reference and 3D environment staging. Built for Virtual Art Departments (VAD) and Virtual Production crews, it automates the asset ingestion process—instantly transforming 2D reference into organized, metadata-aware 3D mood boards . By eliminating the manual overhead of material instancing and aspect-ratio scaling, it allows Art Directors and Leads to focus on creative spatial relationships rather than technical scene setup.
+**Concept Board Creator** is a workflow-optimization Unreal Engine tool designed to bridge the gap between creative reference and 3D environment staging. Built for Virtual Art Departments (VAD) and Virtual Production crews, it automates the asset ingestion process, instantly transforming 2D reference into organized, metadata-aware 3D mood boards . By eliminating the manual overhead of material instancing and aspect-ratio scaling, it allows Art Directors and Leads to focus on creative spatial relationships rather than technical scene setup.
 
 ![Concept Board Creator UI](Resources/ConceptBoard_UI.png) 
 *Load your textures, set your grid, and generate organized reference boards in seconds.*
